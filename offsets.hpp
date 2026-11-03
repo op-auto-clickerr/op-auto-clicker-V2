@@ -13,7 +13,7 @@
 
 // clang-format off
 namespace offsets {
-    inline char roblox_version[64] = "version-5a21b87bbc2641cf";
+    inline char roblox_version[64] = "version-4dcf516fd7214b1c";
 
     namespace Actor {
         inline uintptr_t ParallelFlag = 0x100;
@@ -246,7 +246,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline uintptr_t Pointer = 0x8D06600;
+        inline uintptr_t Pointer = 0x8EB6960;
         inline uintptr_t RealDataModel = 0x1F8;
     }
 
@@ -917,8 +917,8 @@ namespace offsets {
     namespace VisualEngine {
         inline uintptr_t Dimensions = 0xB10;
         inline uintptr_t FakeDataModel = 0xAF0;
-        inline uintptr_t Pointer = 0x879A218;
-        inline uintptr_t RenderView = 0xC40;
+        inline uintptr_t Pointer = 0x8942E38;
+        inline uintptr_t RenderView = 0xC50;
         inline uintptr_t ViewMatrix = 0x1B0;
     }
 

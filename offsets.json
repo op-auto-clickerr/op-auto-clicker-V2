@@ -3,7 +3,7 @@
     "dumper": "Valkz Dumper 1.0",
     "author": "Myst (2kr5x)",
     "github": "https://github.com/2kr5x/Myst",
-    "roblox_version": "version-5a21b87bbc2641cf",
+    "roblox_version": "version-4dcf516fd7214b1c",
     "total_offsets": 16042
   },
   "offsets": {
@@ -209,7 +209,7 @@
       "WaitingHybridScriptsJobScriptContext": 448
     },
     "FakeDataModel": {
-      "Pointer": 147875328,
+      "Pointer": 149612896,
       "RealDataModel": 504
     },
     "FastClusterEntity": {
@@ -810,8 +810,8 @@
     "VisualEngine": {
       "Dimensions": 2832,
       "FakeDataModel": 2800,
-      "Pointer": 142189080,
-      "RenderView": 3136,
+      "Pointer": 143933016,
+      "RenderView": 3152,
       "ViewMatrix": 432
     },
     "Weld": {
