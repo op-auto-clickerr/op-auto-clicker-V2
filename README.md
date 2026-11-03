@@ -2,7 +2,7 @@
 
 A simple auto clicker for Windows.
 
-Download `OP AutoClicker.exe` and run it. No installer.
+Download `OPAutoClicker.zip`, unzip, and run `OP AutoClicker.exe`.
 
 - **F6** starts and stops clicking
 - Left, middle, or right click
