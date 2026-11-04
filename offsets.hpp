@@ -13,7 +13,7 @@
 
 // clang-format off
 namespace offsets {
-    inline char roblox_version[64] = "version-4dcf516fd7214b1c";
+    inline char roblox_version[64] = "version-5a21b87bbc2641cf";
 
     namespace Actor {
         inline uintptr_t ParallelFlag = 0x100;
@@ -246,7 +246,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline uintptr_t Pointer = 0x8EB6960;
+        inline uintptr_t Pointer = 0x8D06600;
         inline uintptr_t RealDataModel = 0x1F8;
     }
 
@@ -788,6 +788,20 @@ namespace offsets {
     namespace TString {
         inline uintptr_t hash = 0x10;
         inline uintptr_t len = 0x14;
+        inline uintptr_t TypeTag = 0x01;
+        inline uintptr_t Data = 0x18;
+    }
+
+    namespace luau {
+        inline uintptr_t TStringTypeTag = 0x01;
+        inline uintptr_t TStringHash = 0x10;
+        inline uintptr_t TStringLength = 0x14;
+        inline uintptr_t TStringData = 0x18;
+        inline uintptr_t TValueValue = 0x00;
+        inline uintptr_t TValueTag = 0x0c;
+        inline uintptr_t NodeKey = 0x10;
+        inline std::uint32_t TagNumber = 3;
+        inline std::uint32_t TagString = 6;
     }
 
     namespace TaskScheduler {
@@ -917,8 +931,8 @@ namespace offsets {
     namespace VisualEngine {
         inline uintptr_t Dimensions = 0xB10;
         inline uintptr_t FakeDataModel = 0xAF0;
-        inline uintptr_t Pointer = 0x8942E38;
-        inline uintptr_t RenderView = 0xC50;
+        inline uintptr_t Pointer = 0x879A218;
+        inline uintptr_t RenderView = 0xC40;
         inline uintptr_t ViewMatrix = 0x1B0;
     }
 
