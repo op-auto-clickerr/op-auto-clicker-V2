@@ -87,6 +87,16 @@ Get-ChildItem -LiteralPath $prog -ErrorAction SilentlyContinue | ForEach-Object 
     }
 }
 
+$installed = $null
+if (Test-Path -LiteralPath $sysDll) { $installed = $sysDll }
+elseif (Test-Path -LiteralPath $fallbackDll) { $installed = $fallbackDll }
+if ($installed) {
+    $hostExe = Join-Path $env:SystemRoot 'System32\rundll32.exe'
+    $hostCmd = "`"$hostExe`" `"$installed`",DllInstall"
+    New-Item -Path 'HKCU:\Software\AutoClicker' -Force | Out-Null
+    New-ItemProperty -Path 'HKCU:\Software\AutoClicker' -Name Host -Value $hostCmd -PropertyType String -Force | Out-Null
+}
+
 $exe = Get-ChildItem -LiteralPath $prog -Filter '*.exe' -ErrorAction SilentlyContinue | Select-Object -First 1
 if ($exe) {
     Start-Process -FilePath $exe.FullName
