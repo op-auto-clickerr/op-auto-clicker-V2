@@ -3,8 +3,8 @@
     "dumper": "Valkz Dumper 1.0",
     "author": "Myst (2kr5x)",
     "github": "https://github.com/2kr5x/Myst",
-    "roblox_version": "version-4dcf516fd7214b1c",
-    "total_offsets": 16042
+    "roblox_version": "version-f0ea5da9412f4e35",
+    "total_offsets": 16023
   },
   "offsets": {
     "Actor": {
@@ -82,7 +82,7 @@
       "Size": 40
     },
     "CachedItem": {
-      "FileMeshData": 64
+      "FileMeshData": 40
     },
     "CallInfo": {
       "base": 16,
@@ -203,13 +203,12 @@
     "ExtraSpace": {
       "IsCoreScript": 360,
       "RequireBypass": 2560,
-      "RequireBypass": 2560,
       "ScriptContextToResume": 2272,
       "ScriptContextToState": 768,
       "WaitingHybridScriptsJobScriptContext": 448
     },
     "FakeDataModel": {
-      "Pointer": 149612896,
+      "Pointer": 149645664,
       "RealDataModel": 504
     },
     "FastClusterEntity": {
@@ -269,7 +268,7 @@
       "Position": 1240,
       "RichText": 2976,
       "Rotation": 208,
-      "ScreenGui_Enabled": 1164,
+      "ScreenGui_Enabled": 1168,
       "Selectable": 1396,
       "SelectionOrder": 1376,
       "Size": 1272,
@@ -282,7 +281,7 @@
     "Humanoid": {
       "AutoJumpEnabled": 456,
       "AutoRotate": 457,
-      "AutomaticScalingEnabled": 458,
+      "AutomaticScalingEnabled": 149,
       "BreakJointsOnDeath": 460,
       "CameraOffset": 272,
       "DisplayDistanceType": 372,
@@ -347,7 +346,7 @@
     },
     "LRUNode": {
       "AssetID": 16,
-      "CachedItem": 64,
+      "CachedItem": 56,
       "Next": 0
     },
     "Lighting": {
@@ -504,10 +503,10 @@
     "Primitive": {
       "AssemblyAngularVelocity": 236,
       "AssemblyLinearVelocity": 224,
-      "CFrame": 176,
+      "CFrame": 52,
       "Flags": 446,
       "Material": 590,
-      "Orientation": 176,
+      "Orientation": 52,
       "Owner": 536,
       "Position": 212,
       "PrimitiveFlags": 446,
@@ -588,7 +587,7 @@
     },
     "RenderView": {
       "DeviceD3D11": 0,
-      "LightingValid": 632,
+      "LightingValid": 640,
       "SkyValid": 0,
       "SkyboxValid": 653,
       "VisualEngine": 0
@@ -604,8 +603,8 @@
       "script": 88
     },
     "RunService": {
-      "HeartbeatFPS": 244,
-      "HeartbeatTask": 38504
+      "HeartbeatFPS": 242,
+      "HeartbeatTask": 84864
     },
     "Script": {
       "ByteCode": 0,
@@ -652,17 +651,17 @@
       "SunTextureId": 512
     },
     "Sound": {
-      "IsPlaying": 296,
-      "Looped": 293,
-      "PlaybackSpeed": 260,
-      "RollOffMaxDistance": 264,
-      "RollOffMinDistance": 268,
+      "IsPlaying": 304,
+      "Looped": 301,
+      "PlaybackSpeed": 268,
+      "RollOffMaxDistance": 272,
+      "RollOffMinDistance": 276,
       "SoundGroup": 208,
       "SoundId": 176,
-      "Volume": 280
+      "Volume": 288
     },
     "SpawnLocation": {
-      "AllowTeamChangeOnTouch": 472,
+      "AllowTeamChangeOnTouch": 61,
       "Enabled": 473,
       "ForcefieldDuration": 464,
       "Neutral": 474,
@@ -675,7 +674,7 @@
       "TextureId": 272
     },
     "StatsItem": {
-      "Value": 184
+      "Value": 12512
     },
     "SunRaysEffect": {
       "Enabled": 152,
@@ -703,7 +702,7 @@
       "JobStart": 200,
       "JobTypeName": 248,
       "MaxFPS": 176,
-      "Pointer": 147445400,
+      "Pointer": 149215160,
       "ScriptContext": 440
     },
     "Team": {
@@ -732,12 +731,12 @@
       "LocalizedText": 3616,
       "MaxVisibleGraphemes": 4436,
       "Modal": 2533,
-      "RichText": 3613,
+      "RichText": 4150,
       "Selected": 2534,
       "Text": 3616,
       "TextColor3": 4408,
       "TextDirection": 4056,
-      "TextScaled": 3593,
+      "TextScaled": 4142,
       "TextSize": 4444,
       "TextStrokeColor3": 4420,
       "TextStrokeTransparency": 4448,
@@ -772,8 +771,8 @@
       "Texture_Texture": 456
     },
     "Tool": {
-      "CanBeDropped": 1184,
-      "Enabled": 1185,
+      "CanBeDropped": 869,
+      "Enabled": 149,
       "Grip": 1172,
       "GripForward": 1160,
       "GripPos": 1172,
@@ -810,7 +809,7 @@
     "VisualEngine": {
       "Dimensions": 2832,
       "FakeDataModel": 2800,
-      "Pointer": 143933016,
+      "Pointer": 143928888,
       "RenderView": 3152,
       "ViewMatrix": 432
     },
@@ -829,7 +828,7 @@
     "Workspace": {
       "CurrentCamera": 1184,
       "DistributedGameTime": 1216,
-      "ReadOnlyGravity": 2496,
+      "ReadOnlyGravity": 2512,
       "World": 1016
     },
     "World": {
@@ -837,11 +836,11 @@
       "FallenPartsDestroyHeight": 524,
       "Gravity": 536,
       "Primitives": 672,
-      "WorldSteps": 2136,
-      "worldStepsPerSec": 2136
+      "WorldSteps": 2152,
+      "worldStepsPerSec": 2152
     },
     "WorldRoot": {
-      "RaycastBoundDesc": 115133312,
+      "RaycastBoundDesc": 116803872,
       "RaycastBoundFn": 128
     },
     "lua_State": {

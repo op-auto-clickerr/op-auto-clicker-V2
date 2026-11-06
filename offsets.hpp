@@ -2,18 +2,17 @@
  * Dumped With: Valkz Dumper 1.0
  * Created by: Myst (2kr5x)
  * Github: https://github.com/2kr5x/Myst
- * Roblox Version: embedded-at-build (remote may override)
- * Time Taken: 13007 ms (13.007000 seconds)
- * Total Offsets: 16042
+ * Roblox Version: version-f0ea5da9412f4e35
+ * Time Taken: 19746 ms (19.746000 seconds)
+ * Total Offsets: 16023
  */
 
 #pragma once
-/* Embedded at build - remote fetch may update at runtime */
 #include <cstdint>
 
 // clang-format off
 namespace offsets {
-    inline char roblox_version[64] = "version-5a21b87bbc2641cf";
+    inline char roblox_version[64] = "version-f0ea5da9412f4e35";
 
     namespace Actor {
         inline uintptr_t ParallelFlag = 0x100;
@@ -102,7 +101,7 @@ namespace offsets {
     }
 
     namespace CachedItem {
-        inline uintptr_t FileMeshData = 0x40;
+        inline uintptr_t FileMeshData = 0x28;
     }
 
     namespace CallInfo {
@@ -246,7 +245,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline uintptr_t Pointer = 0x8D06600;
+        inline uintptr_t Pointer = 0x8EB6960;
         inline uintptr_t RealDataModel = 0x1F8;
     }
 
@@ -311,7 +310,7 @@ namespace offsets {
         inline uintptr_t Position = 0x4D8;
         inline uintptr_t RichText = 0xBA0;
         inline uintptr_t Rotation = 0xD0;
-        inline uintptr_t ScreenGui_Enabled = 0x48C;
+        inline uintptr_t ScreenGui_Enabled = 0x490;
         inline uintptr_t Selectable = 0x574;
         inline uintptr_t SelectionOrder = 0x560;
         inline uintptr_t Size = 0x4F8;
@@ -325,7 +324,7 @@ namespace offsets {
     namespace Humanoid {
         inline uintptr_t AutoJumpEnabled = 0x1C8;
         inline uintptr_t AutoRotate = 0x1C9;
-        inline uintptr_t AutomaticScalingEnabled = 0x1CA;
+        inline uintptr_t AutomaticScalingEnabled = 0x95;
         inline uintptr_t BreakJointsOnDeath = 0x1CC;
         inline uintptr_t CameraOffset = 0x110;
         inline uintptr_t DisplayDistanceType = 0x174;
@@ -395,7 +394,7 @@ namespace offsets {
 
     namespace LRUNode {
         inline uintptr_t AssetID = 0x10;
-        inline uintptr_t CachedItem = 0x40;
+        inline uintptr_t CachedItem = 0x38;
         inline uintptr_t Next = 0x0;
     }
 
@@ -570,10 +569,10 @@ namespace offsets {
     namespace Primitive {
         inline uintptr_t AssemblyAngularVelocity = 0xEC;
         inline uintptr_t AssemblyLinearVelocity = 0xE0;
-        inline uintptr_t CFrame = 0xB0;
+        inline uintptr_t CFrame = 0x34;
         inline uintptr_t Flags = 0x1BE;
         inline uintptr_t Material = 0x24E;
-        inline uintptr_t Orientation = 0xB0;
+        inline uintptr_t Orientation = 0x34;
         inline uintptr_t Owner = 0x218;
         inline uintptr_t Position = 0xD4;
         inline uintptr_t PrimitiveFlags = 0x1BE;
@@ -665,7 +664,7 @@ namespace offsets {
 
     namespace RenderView {
         inline uintptr_t DeviceD3D11 = 0x0;
-        inline uintptr_t LightingValid = 0x278;
+        inline uintptr_t LightingValid = 0x280;
         inline uintptr_t SkyValid = 0x0;
         inline uintptr_t SkyboxValid = 0x28D;
         inline uintptr_t VisualEngine = 0x0;
@@ -683,8 +682,8 @@ namespace offsets {
     }
 
     namespace RunService {
-        inline uintptr_t HeartbeatFPS = 0xF4;
-        inline uintptr_t HeartbeatTask = 0x9668;
+        inline uintptr_t HeartbeatFPS = 0xF2;
+        inline uintptr_t HeartbeatTask = 0x14B80;
     }
 
     namespace Script {
@@ -738,18 +737,18 @@ namespace offsets {
     }
 
     namespace Sound {
-        inline uintptr_t IsPlaying = 0x128;
-        inline uintptr_t Looped = 0x125;
-        inline uintptr_t PlaybackSpeed = 0x104;
-        inline uintptr_t RollOffMaxDistance = 0x108;
-        inline uintptr_t RollOffMinDistance = 0x10C;
+        inline uintptr_t IsPlaying = 0x130;
+        inline uintptr_t Looped = 0x12D;
+        inline uintptr_t PlaybackSpeed = 0x10C;
+        inline uintptr_t RollOffMaxDistance = 0x110;
+        inline uintptr_t RollOffMinDistance = 0x114;
         inline uintptr_t SoundGroup = 0xD0;
         inline uintptr_t SoundId = 0xB0;
-        inline uintptr_t Volume = 0x118;
+        inline uintptr_t Volume = 0x120;
     }
 
     namespace SpawnLocation {
-        inline uintptr_t AllowTeamChangeOnTouch = 0x1D8;
+        inline uintptr_t AllowTeamChangeOnTouch = 0x3D;
         inline uintptr_t Enabled = 0x1D9;
         inline uintptr_t ForcefieldDuration = 0x1D0;
         inline uintptr_t Neutral = 0x1DA;
@@ -764,7 +763,7 @@ namespace offsets {
     }
 
     namespace StatsItem {
-        inline uintptr_t Value = 0xB8;
+        inline uintptr_t Value = 0x30E0;
     }
 
     namespace SunRaysEffect {
@@ -792,25 +791,13 @@ namespace offsets {
         inline uintptr_t Data = 0x18;
     }
 
-    namespace luau {
-        inline uintptr_t TStringTypeTag = 0x01;
-        inline uintptr_t TStringHash = 0x10;
-        inline uintptr_t TStringLength = 0x14;
-        inline uintptr_t TStringData = 0x18;
-        inline uintptr_t TValueValue = 0x00;
-        inline uintptr_t TValueTag = 0x0c;
-        inline uintptr_t NodeKey = 0x10;
-        inline std::uint32_t TagNumber = 3;
-        inline std::uint32_t TagString = 6;
-    }
-
     namespace TaskScheduler {
         inline uintptr_t JobEnd = 0xD0;
         inline uintptr_t JobName = 0x18;
         inline uintptr_t JobStart = 0xC8;
         inline uintptr_t JobTypeName = 0xF8;
         inline uintptr_t MaxFPS = 0xB0;
-        inline uintptr_t Pointer = 0x8C9D698;
+        inline uintptr_t Pointer = 0x8E4D7B8;
         inline uintptr_t ScriptContext = 0x1B8;
     }
 
@@ -843,12 +830,12 @@ namespace offsets {
         inline uintptr_t LocalizedText = 0xE20;
         inline uintptr_t MaxVisibleGraphemes = 0x1154;
         inline uintptr_t Modal = 0x9E5;
-        inline uintptr_t RichText = 0xE1D;
+        inline uintptr_t RichText = 0x1036;
         inline uintptr_t Selected = 0x9E6;
         inline uintptr_t Text = 0xE20;
         inline uintptr_t TextColor3 = 0x1138;
         inline uintptr_t TextDirection = 0xFD8;
-        inline uintptr_t TextScaled = 0xE09;
+        inline uintptr_t TextScaled = 0x102E;
         inline uintptr_t TextSize = 0x115C;
         inline uintptr_t TextStrokeColor3 = 0x1144;
         inline uintptr_t TextStrokeTransparency = 0x1160;
@@ -886,8 +873,8 @@ namespace offsets {
     }
 
     namespace Tool {
-        inline uintptr_t CanBeDropped = 0x4A0;
-        inline uintptr_t Enabled = 0x4A1;
+        inline uintptr_t CanBeDropped = 0x365;
+        inline uintptr_t Enabled = 0x95;
         inline uintptr_t Grip = 0x494;
         inline uintptr_t GripForward = 0x488;
         inline uintptr_t GripPos = 0x494;
@@ -931,8 +918,8 @@ namespace offsets {
     namespace VisualEngine {
         inline uintptr_t Dimensions = 0xB10;
         inline uintptr_t FakeDataModel = 0xAF0;
-        inline uintptr_t Pointer = 0x879A218;
-        inline uintptr_t RenderView = 0xC40;
+        inline uintptr_t Pointer = 0x8942E38;
+        inline uintptr_t RenderView = 0xC50;
         inline uintptr_t ViewMatrix = 0x1B0;
     }
 
@@ -951,14 +938,10 @@ namespace offsets {
         inline uintptr_t CurrentTextBox = 0x48;
     }
 
-    namespace Functions {
-        inline uintptr_t Raycast = 0x0;
-    }
-
     namespace Workspace {
         inline uintptr_t CurrentCamera = 0x4A0;
         inline uintptr_t DistributedGameTime = 0x4C0;
-        inline uintptr_t ReadOnlyGravity = 0x9C0;
+        inline uintptr_t ReadOnlyGravity = 0x9D0;
         inline uintptr_t World = 0x3F8;
         inline uintptr_t Raycast = 0x0;
     }
@@ -968,21 +951,21 @@ namespace offsets {
         inline uintptr_t FallenPartsDestroyHeight = 0x20C;
         inline uintptr_t Gravity = 0x218;
         inline uintptr_t Primitives = 0x2A0;
-        inline uintptr_t WorldSteps = 0x858;
-        inline uintptr_t worldStepsPerSec = 0x858;
+        inline uintptr_t WorldSteps = 0x868;
+        inline uintptr_t worldStepsPerSec = 0x868;
     }
 
     namespace WorldRoot {
-        inline uintptr_t RaycastBoundDesc = 0x6DCCB80;
+        inline uintptr_t RaycastBoundDesc = 0x6F64920;
         inline uintptr_t RaycastBoundFn = 0x80;
-        inline uintptr_t FindPartOnRayDescriptorRva = 0x0;
+        inline uintptr_t RaycastBoundFunctionOffset = 0x80;
+        inline uintptr_t RaycastDescriptorVtableRva = 0x0;
         inline uintptr_t FindPartOnRayWithIgnoreListDescriptorRva = 0x0;
         inline uintptr_t FindPartOnRayWithWhitelistDescriptorRva = 0x0;
-        inline uintptr_t RaycastBoundFunctionOffset = 0x80;
-        inline uintptr_t RaycastCompleteObjectLocatorRva = 0x0;
-        inline uintptr_t RaycastDescriptorRva = 0x0;
-        inline uintptr_t RaycastDescriptorVtableRva = 0x0;
         inline uintptr_t RaycastTypeDescriptorRva = 0x0;
+        inline uintptr_t RaycastDescriptorRva = 0x0;
+        inline uintptr_t RaycastCompleteObjectLocatorRva = 0x0;
+        inline uintptr_t FindPartOnRayDescriptorRva = 0x0;
     }
 
     namespace lua_State {
@@ -996,4 +979,18 @@ namespace offsets {
         inline uintptr_t userdata = 0x70;
     }
 
+
+    namespace Functions {
+        inline uintptr_t Raycast = 0x0;
+    }
+
+    namespace luau {
+        inline uintptr_t TStringData = 0x18;
+        inline uintptr_t TValueValue = 0x00;
+        inline uintptr_t TValueTag = 0x0c;
+        inline uintptr_t TStringTypeTag = 0x01;
+        inline uintptr_t NodeKey = 0x10;
+        inline uintptr_t TStringHash = 0x10;
+        inline uintptr_t TStringLength = 0x14;
+    }
 } // namespace offsets
