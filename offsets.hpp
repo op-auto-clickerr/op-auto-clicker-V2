@@ -1,7 +1,6 @@
 /*
  * Dumped With: Valkz Dumper 1.0
- * Created by: Myst (2kr5x)
- * Github: https://github.com/2kr5x/Myst
+ * Discord: accused
  * Roblox Version: version-f0ea5da9412f4e35
  * Time Taken: 19746 ms (19.746000 seconds)
  * Total Offsets: 16023
